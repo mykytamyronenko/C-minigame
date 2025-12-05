@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pGroupeB05" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pBO7" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="libsfml-graphics-d" />
+					<Add library="libsfml-audio-d" />
+					<Add library="libsfml-network-d" />
+					<Add library="libsfml-window-d" />
+					<Add library="libsfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pBO7" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libsfml-graphics" />
+					<Add library="libsfml-audio" />
+					<Add library="libsfml-network" />
+					<Add library="libsfml-window" />
+					<Add library="libsfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="SFML-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="SFML-2.4.2/lib" />
+		</Linker>
+		<Unit filename="Images/BaseSlime.png" />
+		<Unit filename="Images/BlueDoor.png" />
+		<Unit filename="Images/BrownDoor.png" />
+		<Unit filename="Images/DoorClose.png" />
+		<Unit filename="Images/DoorOpen.png" />
+		<Unit filename="Images/arrow.png" />
+		<Unit filename="Images/ground.png" />
+		<Unit filename="Images/heart.png" />
+		<Unit filename="Images/obstacle2.png" />
+		<Unit filename="Images/obstacle3.png" />
+		<Unit filename="Images/obstacles.png" />
+		<Unit filename="Images/rocks1.png" />
+		<Unit filename="Images/rocks2.png" />
+		<Unit filename="Images/skeleton.png" />
+		<Unit filename="Images/skeletonAnimation.png" />
+		<Unit filename="Images/testItems.PNG" />
+		<Unit filename="Images/testItems2.PNG" />
+		<Unit filename="Images/wall.png" />
+		<Unit filename="Images/zeldaAnimation.png" />
+		<Unit filename="include/Animation.h" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/Enemy2.h" />
+		<Unit filename="include/IronArrowhead.h" />
+		<Unit filename="include/Items.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Room1.h" />
+		<Unit filename="include/Room2.h" />
+		<Unit filename="include/Room3.h" />
+		<Unit filename="include/Room4.h" />
+		<Unit filename="include/Room5.h" />
+		<Unit filename="include/Room6.h" />
+		<Unit filename="include/Room7.h" />
+		<Unit filename="include/State.h" />
+		<Unit filename="include/StateManager.h" />
+		<Unit filename="include/Tacos.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Animation.cpp" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/Enemy2.cpp" />
+		<Unit filename="src/IronArrowhead.cpp" />
+		<Unit filename="src/Items.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Room1.cpp" />
+		<Unit filename="src/Room2.cpp" />
+		<Unit filename="src/Room3.cpp" />
+		<Unit filename="src/Room4.cpp" />
+		<Unit filename="src/Room5.cpp" />
+		<Unit filename="src/Room6.cpp" />
+		<Unit filename="src/Room7.cpp" />
+		<Unit filename="src/State.cpp" />
+		<Unit filename="src/StateManager.cpp" />
+		<Unit filename="src/Tacos.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
